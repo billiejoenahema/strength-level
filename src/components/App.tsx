@@ -1,13 +1,11 @@
 import React from 'react'
 import './App.css'
+import Main from './Main'
 
 const App = () => {
-  const appName = 'Strength Level'
   return (
-    <div>
-      {appName}
-    </div>
-  );
+    <Main />
+  )
 }
 
 export default App
